@@ -3,6 +3,17 @@ body {
     flex-direction: column;
 }
 
+.top-section {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 ul,
 .banner-text {
     color: #E5E7EB;
@@ -12,11 +23,17 @@ ul,
 ul {
     list-style: none;
     padding-left: 0px;
+    display: flex;
+    gap: 10px;
+    
 }
 
-.top-section {
-    background-color: #1F2937;
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
+
 
 .banner-headline {
     color: #F9FAF8;
@@ -27,11 +44,6 @@ ul {
 button {
     background-color: #3882f6;
     color: white;
-}
-
-.logo {
-    height: 30px;
-    width: 100px;
 }
 
 .our-team {
