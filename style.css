@@ -41,6 +41,7 @@ ul {
 button {
     background-color: #3882f6;
     color: white;
+    border-radius: 5px;
 }
 
 .our-team {
@@ -49,7 +50,6 @@ button {
 }
 
 .team-profile {
-    
     max-width: 200px;
 }
 
