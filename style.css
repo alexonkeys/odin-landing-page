@@ -25,15 +25,12 @@ ul {
     padding-left: 0px;
     display: flex;
     gap: 10px;
-    
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
-
-
 
 .banner-headline {
     color: #F9FAF8;
@@ -47,6 +44,16 @@ button {
 }
 
 .our-team {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-profile {
+    
+    max-width: 200px;
+}
+
+.team-images {
     height: 200px;
     width: 200px;
 }
