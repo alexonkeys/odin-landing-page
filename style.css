@@ -3,9 +3,30 @@ body {
     flex-direction: column;
 }
 
+ul,
+.banner-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 ul {
     list-style: none;
     padding-left: 0px;
+}
+
+.top-section {
+    background-color: #1F2937;
+}
+
+.banner-headline {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
 }
 
 .logo {
