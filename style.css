@@ -44,14 +44,6 @@ ul {
     flex: 1;
 }
 
-.banner-section-2 {
-
-}
-
-.banner-image {
-
-}
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -80,16 +72,19 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .our-team {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: flex;
 }
 
 .team-profile {
+    display: flex;
+    flex-direction: column;
     max-width: 200px;
-    padding: 8px;
+    padding: 20px;
 }
 
 .team-images {
@@ -101,14 +96,38 @@ button {
 .inspirational.quote {
     display: flex;
     flex-direction: column;
+    margin: 100px;
     
 }
 
 .quote {
     text-align: justify;
-    flex-basis: 800px;
+    flex-basis: 600px;
+    font-style: italic;
 }
 
 .attribution {
     text-align: end;
+    font-weight: bold;
+}
+
+.cta-banner {
+    background-color: #3882f6;
+    border-radius: 5px;
+    align-self: stretch;
+    margin: 100px;
+    color: white;
+    padding: 16px;
+}
+
+.cta-signup {
+    background-color: #1F2937;
+    border: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
