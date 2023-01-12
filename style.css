@@ -9,6 +9,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 30px;
 }
 
 .header {
@@ -32,20 +33,23 @@ ul {
 
 .banner {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: flex;
+
 }
 
 .banner-section-1 {
-    flex-shrink: 1;
+    flex: 1;
 }
 
 .banner-section-2 {
-    flex-shrink: 1;
-    display: flex;
-    align-self: flex-end;
+
 }
 
 .banner-image {
-    max-width: 85%;
+
 }
 
 .logo {
@@ -64,6 +68,12 @@ button {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .middle-section {
